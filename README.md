@@ -9,6 +9,7 @@ The ALU performs four basic operations based on the 2-bit select input.
 ## Operations
 
 | Select | Operation | Description |
+|--------|-----------|-------------|
 | 00 | Addition | A + B |
 | 01 | Subtraction | A - B |
 | 10 | AND | A & B |
@@ -22,4 +23,29 @@ The ALU performs four basic operations based on the 2-bit select input.
 
 ## Output
 
--
+- `Y` - 4-bit ALU output
+
+## Tools Used
+
+- Verilog HDL
+- VeriSim
+- VS Code
+
+## Simulation Results
+
+The ALU was simulated successfully for all four operations.
+
+### Waveform
+
+![ALU Waveform](waveform.jpeg)
+
+### RTL Schematic
+
+![RTL Schematic](rtl_schematic.jpeg)
+
+## Project Files
+
+- `alu.v` - ALU design code
+- `alu_tb.v` - Verilog testbench
+- `waveform.jpeg` - Simulation waveform
+- `rtl_schematic.jpeg` - RTL schematic
