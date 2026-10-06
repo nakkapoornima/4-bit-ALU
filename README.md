@@ -25,11 +25,14 @@ The ALU performs four basic operations based on the 2-bit select input.
 
 - `Y` - 4-bit ALU output
 
-## Tools Used
+## Language
 
 - Verilog HDL
+
+## Tools Used
+
 - VeriSim
-- VS Code
+
 
 ## Simulation Results
 
